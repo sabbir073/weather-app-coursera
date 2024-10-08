@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
         weatherInfo.innerHTML = '';
     
         try {
-            const apiUrl = `http://www.7timer.info/bin/api.pl?lon=${lon}&lat=${lat}&product=civil&output=json`;
+            const apiUrl = `https://www.7timer.info/bin/api.pl?lon=${lon}&lat=${lat}&product=civil&output=json`;
             console.log('Fetching weather data from URL:', apiUrl);
             const response = await fetch(apiUrl);
             
