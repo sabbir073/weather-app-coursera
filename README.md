@@ -2,11 +2,9 @@
 
 This project is a simple weather forecast web application that allows users to select a city and get a detailed 7-day weather forecast for that location. The data is fetched using the [7Timer! API](http://7timer.info).
 
-![Weather App](./screenshot.png)
-
 ## Live Demo
 
-You can view the live version of the app [here](https://sabbir073.github.io/weather-app-cousera/).
+You can view the live version of the app [here](https://sabbir073.github.io/weather-app-coursera/).
 
 ## Features
 
@@ -32,3 +30,6 @@ To run this project on your local machine, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/sabbir073/weather-app-cousera.git
+
+   
+And run on local server!
