@@ -132,7 +132,7 @@ function displayWeather(weatherData, initTime) {
             const weatherCard = `
                 <div class="bg-white p-6 rounded-lg shadow-lg text-center transform hover:scale-105 transition-transform duration-300">
                     <h3 class="font-bold text-xl mb-2">${dayName}, ${readableDate}</h3>
-                    <img src="../images/${weatherDetails.img}" alt="${weatherType}" class="mx-auto mb-4 w-20 h-20 object-contain" />
+                    <img src="https://sabbir073.github.io/weather-app-coursera/images/${weatherDetails.img}" alt="${weatherType}" class="mx-auto mb-4 w-20 h-20 object-contain" />
                     <p class="text-lg font-semibold mb-1">${weatherDetails.text}</p>
                     <p class="text-gray-700">Temp: ${temp}°C</p>
                 </div>
